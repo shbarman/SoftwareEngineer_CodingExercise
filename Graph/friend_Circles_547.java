@@ -1,4 +1,4 @@
-import java.util.Stack;
+//import java.util.Stack;
 
 //No of connected components hence union find
 class friend_Circles_547 {
@@ -30,7 +30,7 @@ class friend_Circles_547 {
     }
     
     void union(int[] parent,int i, int j){
-        int A = find(parent,i) ;
+        int A = find(parent,i);
         int B = find(parent,j);
 
         if(A!=B){

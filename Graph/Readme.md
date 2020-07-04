@@ -83,6 +83,8 @@ Set<String> depthFirstTraversal(Graph graph, String root) {
     return visited;
 }
 ```
+NOTE: 
+
 ## BFS - Breadth First Search Traversal
 
 It explores all vertices at present depth before moving on to the next level
@@ -150,7 +152,7 @@ class DSU{
 }
 
 ```
-## Path Compression ##
+## Path Compression & Union By Rank ##
 The above steps might result in an unbalanced graph, to resolve from the situation we use **Path Compression** 
 
 Steps to be followed:
