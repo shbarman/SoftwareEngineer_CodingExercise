@@ -24,5 +24,7 @@ public class DSU {
         return parent[r];
     }
 
-    
+    public boolean connected(int a , int b){
+        return find(a)==find(b);
+    }
 }
