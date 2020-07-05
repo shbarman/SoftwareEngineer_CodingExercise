@@ -39,7 +39,7 @@ class friend_Circles_547 {
     }
 
    int find(int[] parent,int i){
-       if(parent[i]==-1) parent[i] = find(parent,parent[i]);
+       if(parent[i]==i) parent[i] = find(parent,parent[i]);
 
        return parent[i];
    }
