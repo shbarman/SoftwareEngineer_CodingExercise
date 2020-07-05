@@ -232,6 +232,6 @@ public void dfs(int node , int parent ,List<List<Integer>> graph, List<List<Inte
 
 ```
 ## Kruskal's Algorithm ##
-    Sort all edges of graph in non decreasing order of weights.
-    Selection of edges with minimum cost that doesnot form a cycle.
-    Time complexity O(MlogN) -> Number of Edges
+Sort all edges of graph in non decreasing order of weights.
+Selection of edges with minimum cost that doesnot form a cycle.
+Time complexity O(MlogN) -> Number of Edges
