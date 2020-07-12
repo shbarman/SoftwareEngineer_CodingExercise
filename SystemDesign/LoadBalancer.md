@@ -35,3 +35,14 @@ Pros:
 
 6. IP Hash : Server is determined on basis of client's ip address.
 
+### Note :  Consistent Hashing ?? 
+
+Though Round robin distributes load evenly , HAProxy taked hash of part of request to determine the available server.
+For Scenarios where we need to add servers we would have to consistently keep changing the hashing of servers 
+ 
+ Hash Function : Hash(client ip address) -> result % number of servers to determine which server the load is directed to.
+
+
+With the above logic the majority of requests would have to redirected to different servers. This introduces the concept of **Consistent Hashing**
+
+
