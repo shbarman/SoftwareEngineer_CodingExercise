@@ -4,5 +4,34 @@ Critical component of distributed systems. It helps in distributing traffic acro
 Pros:
 1. Optimization of resources
 2. Availability of network and responsiveness.
+3. Less Downtime and higher throughput (rate of processing)
+4. Fewer Stressed components
 
 ![LoadBalancer](/SystemDesign/images/lb.JPG)
+
+
+## Placement of Load Balancers ##
+
+1. Between User and the web server
+2. Between Web server and and internal platform layer like application server or cache
+3. Between Internal Platform Layer and database
+
+## Algorithms of Load Balancers ##
+
+
+1. Round Robin : The load is cycled to sort request. The load is sent to the first available node and then to the next server. On reachimg the end of the list of the servers it sends it to the first server again.
+
+2. Round Robin with weighted servers : Each server is assigned weights on its capacity to process and server with higher weigths recieve traffic before than the lesser weight ones.
+
+
+3. Least Connection method : The servers with least active connections recieve the traffic first. These are helpful in unevenly distributes servers.
+
+
+4. Least Bandwidth method : The servers serving least amount of traffic calculated in Mbps is selected first
+
+
+5. Least Response Time method : Selection of server is based on fewer active connection and having least response time.
+
+
+6. IP Hash : Server is determined on basis of client's ip address.
+
