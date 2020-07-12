@@ -47,4 +47,12 @@ With the above logic the majority of requests would have to redirected to differ
 
 [**Consistent Hashing**](/SystemDesign/ConsistentHashing.md) Each server is assigned multiple hash values and each request recieved is directed to the nearest value
 
+*For, conditions where server is stable and traffic of LB is at random Round Robin is used. Whereas, distributed systems which needs to scale out and requests would have to map to same server. Consistent Hashing helps in achieving well - distributed uniformity.*
+
+# References: #
+
+https://medium.com/vimeo-engineering-blog/improving-load-balancing-with-a-new-consistent-hashing-algorithm-9f1bd75709ed
+
+http://stackoverflow.com/questions/58361938/why-do-we-need-consistent-hashing-when-round-robin-can-distribute-the-traffic-ev#:~:text=So%20consistent%20hashing%20lets%20us,LB%20traffic%20is%20at%20random.&text=Consistent%20hashing%20can%20achieve%20well-distributed%20uniformity.,-Hope%20this%20makes
+
 
