@@ -16,6 +16,14 @@ Pros:
 2. Between Web server and and internal platform layer like application server or cache
 3. Between Internal Platform Layer and database
 
+This is classified into:
+
+a) Network Load Balancing : Handles TCP/UDP traffic, it leverages network layer information to decide where should the traffic be redirected to. Layer 4
+
+b) HTTP(s) Load Balancing : Layer 7, it directs traffic on basis of information with HTTP address
+
+c) Internal Load Balancing : Balancing internal infrastructure.
+
 ## Algorithms of Load Balancers ##
 
 
@@ -48,6 +56,15 @@ With the above logic the majority of requests would have to redirected to differ
 [**Consistent Hashing**](/SystemDesign/ConsistentHashing.md) Each server is assigned multiple hash values and each request recieved is directed to the nearest value
 
 *For, conditions where server is stable and traffic of LB is at random Round Robin is used. Whereas, distributed systems which needs to scale out and requests would have to map to same server. Consistent Hashing helps in achieving well - distributed uniformity.*
+
+## Types Of Load Balancer ##
+
+1. Hardware Load Balancer : Physical, on premises hardware which distributes network traffic. It balances large volume of traffic but are expensive.
+
+2. Software Load Balancer : Hybrid approach with open source and more affordable solutions.
+
+3. Virtual Load Balancer :
+
 
 # References: #
 
