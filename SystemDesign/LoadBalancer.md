@@ -61,9 +61,9 @@ With the above logic the majority of requests would have to redirected to differ
 
 1. Hardware Load Balancer : Physical, on premises hardware which distributes network traffic. It balances large volume of traffic but are expensive.
 
-2. Software Load Balancer : Hybrid approach with open source and more affordable solutions.
+2. Software Load Balancer : Hybrid approach with open source and more affordable solutions. HAProxy 
 
-3. Virtual Load Balancer :
+3. Virtual Load Balancer : Software on virtual machines.
 
 
 # References: #
