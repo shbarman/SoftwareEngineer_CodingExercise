@@ -45,6 +45,6 @@ For Scenarios where we need to add servers we would have to consistently keep ch
 
 With the above logic the majority of requests would have to redirected to different servers. This introduces the concept of *Consistent Hashing*
 
-[**Consistent Hashing**](/ConsistentHashing.md) Each server is assigned multiple hash values and each request recieved is directed to the nearest value
+[**Consistent Hashing**](/SystemDesign/ConsistentHashing.md) Each server is assigned multiple hash values and each request recieved is directed to the nearest value
 
 
