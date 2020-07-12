@@ -43,6 +43,6 @@ For Scenarios where we need to add servers we would have to consistently keep ch
  Hash Function : Hash(client ip address) -> result % number of servers to determine which server the load is directed to.
 
 
-With the above logic the majority of requests would have to redirected to different servers. This introduces the concept of **Consistent Hashing**
+With the above logic the majority of requests would have to redirected to different servers. This introduces the concept of *Consistent Hashing*
 
 
