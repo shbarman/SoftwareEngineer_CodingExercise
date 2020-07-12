@@ -67,6 +67,11 @@ b) HTTP(s) Load Balancing : Layer 7, it directs traffic on basis of information 
 
 c) Internal Load Balancing : Balancing internal infrastructure.
 
+
+# Examples #
+
+1) ApacheBooster -> low performing servers
+2) Elastic Load balancer -> minimum cost
 # References: #
 
 https://medium.com/vimeo-engineering-blog/improving-load-balancing-with-a-new-consistent-hashing-algorithm-9f1bd75709ed
