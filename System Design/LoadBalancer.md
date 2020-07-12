@@ -5,4 +5,4 @@ Pros:
 1. Optimization of resources
 2. Availability of network and responsiveness.
 
-![LoadBalancer](/images/lb.jpeg)
+![LoadBalancer](/images/lb.JPG)
