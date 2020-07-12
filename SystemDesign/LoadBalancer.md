@@ -16,13 +16,7 @@ Pros:
 2. Between Web server and and internal platform layer like application server or cache
 3. Between Internal Platform Layer and database
 
-This is classified into:
 
-a) Network Load Balancing : Handles TCP/UDP traffic, it leverages network layer information to decide where should the traffic be redirected to. Layer 4
-
-b) HTTP(s) Load Balancing : Layer 7, it directs traffic on basis of information with HTTP address
-
-c) Internal Load Balancing : Balancing internal infrastructure.
 
 ## Algorithms of Load Balancers ##
 
@@ -65,6 +59,13 @@ With the above logic the majority of requests would have to redirected to differ
 
 3. Virtual Load Balancer : Software on virtual machines.
 
+This is classified into:
+
+a) Network Load Balancing : Handles TCP/UDP traffic, it leverages network layer information to decide where should the traffic be redirected to. Layer 4
+
+b) HTTP(s) Load Balancing : Layer 7, it directs traffic on basis of information with HTTP address
+
+c) Internal Load Balancing : Balancing internal infrastructure.
 
 # References: #
 
