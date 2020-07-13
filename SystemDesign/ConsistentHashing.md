@@ -56,3 +56,12 @@ To minimize uneven load on servers due to their placement on the ring, we usuall
 ## Implementation of Consistent Hashing ##
 
 1. A Hash Table / Hash Ring 
+2. Hash Function
+3. Server object
+
+## Implemented By ##
+
+1. Apache Cassandra
+2. Amazon DynamoDB
+3. Memcached
+4. Akamai CDN
