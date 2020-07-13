@@ -65,3 +65,9 @@ To minimize uneven load on servers due to their placement on the ring, we usuall
 2. Amazon DynamoDB
 3. Memcached
 4. Akamai CDN
+
+### References ###
+
+1. https://www.interviewcake.com/concept/java/consistent-hashing
+2. https://www.youtube.com/watch?v=viaNG1zyx1g&t=48s
+3. https://www.toptal.com/big-data/consistent-hashing
