@@ -56,3 +56,5 @@ When new node is introduced, it will not  have entries until it is updated in th
 5. LIFO : Last In First Out
 6. RR : Random Replacement
 
+## Reference: ##
+https://github.com/donnemartin/system-design-primer
