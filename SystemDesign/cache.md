@@ -45,3 +45,14 @@ When new node is introduced, it will not  have entries until it is updated in th
 4. **Write Behind**: The data from cache is asynchronously written into database at a time interval event loop.However, in case of cache node failure the data might be lost before it is written into the database.
 
 ![WriteBehind](/SystemDesign/images/cache4.JPG)
+
+
+## Cache Eviction Policy ##
+
+1. LRU : Least Recently Used
+2. LFU : Least Frequently Used 
+3. MRU : Most Recently Used 
+4. FIFO : First In First Out
+5. LIFO : Last In First Out
+6. RR : Random Replacement
+
